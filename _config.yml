@@ -8,7 +8,7 @@ subtitle: 佛山科学技术学院
 description: 技术博客，并发编程，java
 keywords:
 author: 黄泽锋
-language: en
+language: zh-Hans
 timezone:
 
 # URL
@@ -84,7 +84,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
