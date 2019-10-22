@@ -91,4 +91,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/hzf1997/hzf1997.github.io.git
-  branch: public
+  branch: master
