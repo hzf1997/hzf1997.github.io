@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="项目," />
 
 
 
@@ -79,14 +79,15 @@
 
 
 
-<meta name="description" content="##论坛项目实战http:&#x2F;&#x2F;naotu.baidu.com&#x2F;file&#x2F;cc2245db56b375db803c7da2489528a4?token=9080353bfce14a51 #哈哈哈 大苏打啊是大俺帅大     ​">
+<meta name="description" content="##第一篇#快速下载项目并打开项目。  git clone https:&#x2F;&#x2F;github.com&#x2F;codedrinker&#x2F;community  从git上克隆项目 cd community    进入项目 mvn flyway:migrate -Pdev 执行sql脚本 mvn clean compile package    打包 java -jar java -jar target&#x2F;commu">
+<meta name="keywords" content="项目">
 <meta property="og:type" content="article">
-<meta property="og:title" content="论坛项目实战">
+<meta property="og:title" content="论坛项目实战一">
 <meta property="og:url" content="https:&#x2F;&#x2F;hzf1997.github.io&#x2F;2019&#x2F;10&#x2F;22&#x2F;%E8%AE%BA%E5%9D%9B%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98&#x2F;index.html">
 <meta property="og:site_name" content="黄泽锋">
-<meta property="og:description" content="##论坛项目实战http:&#x2F;&#x2F;naotu.baidu.com&#x2F;file&#x2F;cc2245db56b375db803c7da2489528a4?token=9080353bfce14a51 #哈哈哈 大苏打啊是大俺帅大     ​">
+<meta property="og:description" content="##第一篇#快速下载项目并打开项目。  git clone https:&#x2F;&#x2F;github.com&#x2F;codedrinker&#x2F;community  从git上克隆项目 cd community    进入项目 mvn flyway:migrate -Pdev 执行sql脚本 mvn clean compile package    打包 java -jar java -jar target&#x2F;commu">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-10-22T05:58:06.034Z">
+<meta property="og:updated_time" content="2019-10-22T10:54:31.035Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -123,7 +124,7 @@
 
 
 
-  <title>论坛项目实战 | 黄泽锋</title>
+  <title>论坛项目实战一 | 黄泽锋</title>
   
 
 
@@ -309,7 +310,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">论坛项目实战</h1>
+          <h1 class="post-title" itemprop="name headline">论坛项目实战一</h1>
         
 
         <div class="post-meta">
@@ -331,6 +332,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%A1%B9%E7%9B%AE/" itemprop="url" rel="index">
+                    <span itemprop="name">项目</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -359,10 +382,50 @@
       
 
       
-        <p>##论坛项目实战<br><a href="http://naotu.baidu.com/file/cc2245db56b375db803c7da2489528a4?token=9080353bfce14a51](http://naotu.baidu.com/file/cc2245db56b375db803c7da2489528a4?token=9080353bfce14a51](http://naotu.baidu.com/file/cc2245db56b375db803c7da2489528a4?token=9080353bfce14a51" target="_blank" rel="noopener">http://naotu.baidu.com/file/cc2245db56b375db803c7da2489528a4?token=9080353bfce14a51</a></p>
-<p>#哈哈哈</p>
-<p>大苏打啊是大俺帅大    </p>
-<p>​    </p>
+        <p>##第一篇<br>#快速下载项目并打开项目。</p>
+<ol>
+<li><code>git clone https://github.com/codedrinker/community</code>  从git上克隆项目</li>
+<li><code>cd community</code>    进入项目</li>
+<li><code>mvn flyway:migrate -Pdev</code> 执行sql脚本</li>
+<li><code>mvn clean compile package</code>    打包</li>
+<li><code>java -jar java -jar target/community-0.0.1-SNAPSHOT.jar</code></li>
+<li>浏览器中打开localhost:8887</li>
+</ol>
+<p>#导入IDEA</p>
+<ol>
+<li>选择import project</li>
+<li>选择community</li>
+<li>next</li>
+<li>导入成功后打开CommunityApplication类运行即可</li>
+</ol>
+<h2 id="码匠社区"><a href="#码匠社区" class="headerlink" title="码匠社区"></a>码匠社区</h2><h2 id="快速运行"><a href="#快速运行" class="headerlink" title="快速运行"></a>快速运行</h2><ol>
+<li>安装必备工具<br>JDK，Maven</li>
+<li>克隆代码到本地  </li>
+<li>运行命令创建数据库脚本</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn flyway:migrate</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>运行打包命令</li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn package</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li>运行项目  </li>
+</ol>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -jar target/community-0.0.1-SNAPSHOT.jar</span><br></pre></td></tr></table></figure>
+
+<ol start="6">
+<li>访问项目</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://localhost:8887</span><br></pre></td></tr></table></figure>
+
+<h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><p><a href="https://spring.io/guides" target="_blank" rel="noopener">Spring 文档</a><br><a href="https://spring.io/guides/gs/serving-web-content/" target="_blank" rel="noopener">Spring Web</a><br><a href="https://elasticsearch.cn/explore" target="_blank" rel="noopener">es</a><br><a href="https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys" target="_blank" rel="noopener">Github deploy key</a><br><a href="https://v3.bootcss.com/getting-started/" target="_blank" rel="noopener">Bootstrap</a><br><a href="https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/" target="_blank" rel="noopener">Github OAuth</a><br><a href="https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-embedded-database-support" target="_blank" rel="noopener">Spring</a><br><a href="https://www.runoob.com/mysql/mysql-insert-query.html" target="_blank" rel="noopener">菜鸟教程</a><br><a href="https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values" target="_blank" rel="noopener">Thymeleaf</a><br><a href="https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#using-boot-devtools" target="_blank" rel="noopener">Spring Dev Tool</a><br><a href="https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-handlermapping-interceptor" target="_blank" rel="noopener">Spring MVC</a><br><a href="http://editor.md.ipandao.com/" target="_blank" rel="noopener">Markdown 插件</a><br><a href="https://github.com/ucloud/ufile-sdk-java" target="_blank" rel="noopener">UFfile SDK</a><br><a href="https://mp.weixin.qq.com/s/Rwpke4BHu7Fz7KOpE2d3Lw" target="_blank" rel="noopener">Count(*) VS Count(1)</a>  </p>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p><a href="https://git-scm.com/download" target="_blank" rel="noopener">Git</a><br><a href="https://www.visual-paradigm.com" target="_blank" rel="noopener">Visual Paradigm</a><br><a href="https://flywaydb.org/getstarted/firststeps/maven" target="_blank" rel="noopener">Flyway</a><br><a href="https://www.projectlombok.org" target="_blank" rel="noopener">Lombok</a><br><a href="https://www.octotree.io/" target="_blank" rel="noopener">ctotree</a><br><a href="https://chrome.google.com/webstore/detail/table-of-contents-sidebar/ohohkfheangmbedkgechjkmbepeikkej" target="_blank" rel="noopener">Table of content sidebar</a><br><a href="https://chrome.google.com/webstore/detail/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="noopener">One Tab</a><br><a href="https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei/related" target="_blank" rel="noopener">Live Reload</a><br><a href="https://chrome.google.com/webstore/detail/coohjcphdfgbiolnekdpbcijmhambjff" target="_blank" rel="noopener">Postman</a></p>
+<h2 id="脚本"><a href="#脚本" class="headerlink" title="脚本"></a>脚本</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="keyword">USER</span></span><br><span class="line">(</span><br><span class="line">    <span class="keyword">ID</span> <span class="built_in">int</span> AUTO_INCREMENT PRIMARY <span class="keyword">KEY</span> <span class="keyword">NOT</span> <span class="literal">NULL</span>,</span><br><span class="line">    ACCOUNT_ID <span class="built_in">VARCHAR</span>(<span class="number">100</span>),</span><br><span class="line">    <span class="keyword">NAME</span> <span class="built_in">VARCHAR</span>(<span class="number">50</span>),</span><br><span class="line">    TOKEN <span class="built_in">VARCHAR</span>(<span class="number">36</span>),</span><br><span class="line">    GMT_CREATE <span class="built_in">BIGINT</span>,</span><br><span class="line">    GMT_MODIFIED <span class="built_in">BIGINT</span></span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mvn flyway:migrate</span><br><span class="line">mvn -Dmybatis.generator.overwrite=<span class="literal">true</span> mybatis-generator:generate</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -377,6 +440,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E9%A1%B9%E7%9B%AE/" rel="tag"># 项目</a>
+          
+        </div>
       
 
       
@@ -396,6 +465,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/10/22/IDEA%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" rel="prev" title="IDEA常用快捷键">
+                IDEA常用快捷键 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -447,8 +520,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -467,7 +549,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -478,7 +560,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -489,7 +571,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tages/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -540,6 +622,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#码匠社区"><span class="nav-number">1.</span> <span class="nav-text">码匠社区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快速运行"><span class="nav-number">2.</span> <span class="nav-text">快速运行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#资料"><span class="nav-number">3.</span> <span class="nav-text">资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#工具"><span class="nav-number">4.</span> <span class="nav-text">工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#脚本"><span class="nav-number">5.</span> <span class="nav-text">脚本</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
